@@ -34,7 +34,7 @@ tile_size = 35
 game_over = 0
 main_menu = True
 level = 1
-max_levels = 2
+max_levels = 7
 score = 0
 
 white = (255, 255, 255)
@@ -62,6 +62,7 @@ game_over_fx.set_volume(0.5)
 def draw_text(text, font, text_col, x, y):
     img = font.render(text, True, text_col)
     screen.blit(img, (x, y))
+
 
 
 
