@@ -13,6 +13,7 @@ pygame.display.set_caption('Shooter')
 clock = pygame.time.Clock()
 FPS = 60
 
+
 # Konstanten
 GRAVITY = 0.75
 BG = (144, 201, 120)
